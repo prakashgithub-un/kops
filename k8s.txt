@@ -70,9 +70,10 @@ you don't have to use environment variable here.you can always define the values
 
 Suggestions:
  * list clusters with: kops get cluster
- * edit this cluster with: kops edit cluster naresh.k8s.local
- * edit your node instance group: kops edit ig --name=naresh.k8s.local nodes-us-east-1a
- * edit your master instance group: kops edit ig --name=naresh.k8s.local master-us-east-1a
+ * edit this cluster with: kops edit cluster prakash.k8s.local
+ * edit your node instance group: kops edit ig --name=prakash.k8s.local nodes-ca-central-1a
+ * edit your control-plane instance group: kops edit ig --name=prakash.k8s.localcontrol-plane-ca-central-1a
+
 
 Finally configure your cluster with: kops update cluster --name naresh.k8s.local --yes --admin
 
