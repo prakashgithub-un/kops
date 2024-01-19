@@ -53,8 +53,8 @@ Prepare local environment ( multimaster types)
 We ready to start creating our first cluster! let's first set up a few environment variables to make this 
 process easier.
 
-# export NAME=aws.naresh.com
-# export KOPS_STATE_store=s3://awsnaresh
+# export NAME=aws.prakash.com
+# export KOPS_STATE_store=s3://helm-kops
 
 for a gossip-based cluster,make sure the name ends with k8s.local.for example
 
