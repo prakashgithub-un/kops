@@ -88,7 +88,7 @@ Suggestions:
 
 DELETE A CLUSTER
 
-# kops delete cluster --name=naresh.k8s.local --state=s3://kops2623 --yes
+# kops delete cluster --name=prakash.k8s.local --state=s3://helm-kops --yes
 
 IF CHOOSE MULTIPLE AVAILABILITY ZONES
 
