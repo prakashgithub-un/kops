@@ -75,7 +75,7 @@ Suggestions:
  * edit your control-plane instance group: kops edit ig --name=prakash.k8s.localcontrol-plane-ca-central-1a
 
 
-Finally configure your cluster with: kops update cluster --name naresh.k8s.local --yes --admin
+Finally configure your cluster with: kops update cluster --name prakash.k8s.local --yes --admin
 
 
 Suggestions:
