@@ -23,8 +23,8 @@ because "aws configure" doesn't export these vars for kops to use, we export the
 # export AWS_SECRET_ACCESS_KEY=$( aws configure get aws_secret_access_key)
 
 
-export AWS_ACCESS_KEY_ID=
-export AWS_SECRET_ACCESS_KEY=
+export AWS_ACCESS_KEY_ID=AKIAV3TGEA4XEHZLGO77
+export AWS_SECRET_ACCESS_KEY=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
 
 
 cluster type :
